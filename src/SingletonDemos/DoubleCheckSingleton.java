@@ -2,6 +2,8 @@ package SingletonDemos;
 
 /**
  * Created by zhuyuchao on 2017/4/7.
+ * 双重检查实现单例
+ * volatile屏蔽JVM代码优化，效率不高一般不用
  */
 public class DoubleCheckSingleton {
 
