@@ -5,6 +5,6 @@ package FactoryDemos.PolymorphicFactory;
  */
 public interface ExportFactory {
 
-    ExportFactory factory(String type);
+    ExportFile factory(String type);
 
 }
